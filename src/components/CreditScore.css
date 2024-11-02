@@ -1,0 +1,27 @@
+/* src/components/CreditScore.css */
+
+/* Credit Score Container */
+.credit-score-container {
+    padding: 20px; /* Padding around the content */
+    background-color: #e8d7f1; /* Light purple background specific to this component */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Heading Style */
+.credit-score-container h2 {
+    color: #7a3b8a; /* Slightly lighter purple for headings */
+    text-align: center; /* Center align the heading */
+}
+
+/* Paragraph Style */
+.credit-score-container p {
+    margin: 10px 0; /* Margin for spacing between paragraphs */
+    color: #5e4b8a; /* Darker purple for paragraph text */
+}
+
+/* Credit Score Value Style */
+.credit-score-container strong {
+    color: #7a3b8a; /* Slightly lighter purple for emphasis */
+    font-size: 1.2em; /* Slightly larger font size for emphasis */
+}

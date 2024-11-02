@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    background-color: #4a3c6c; /* Slightly darker purple for sidebar */
+    padding: 20px; /* Padding inside the sidebar */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: white; /* White color for sidebar headings */
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.sidebar ul li a:hover {
+    color: #d1c4e9; /* Light color on hover */
+}

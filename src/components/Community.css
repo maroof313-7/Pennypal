@@ -1,0 +1,54 @@
+/* src/components/Community.css */
+
+/* Community Container */
+.community-container {
+    padding: 20px; /* Padding around the content */
+    background-color: #f9f9f9; /* Light background color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Post Form */
+.post-form {
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    margin-bottom: 20px; /* Space below the form */
+}
+
+/* Post Input Area */
+.post-input {
+    padding: 10px; /* Padding inside the input area */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    resize: none; /* Prevent resizing of the textarea */
+}
+
+/* Submit Post Button */
+.submit-post-button {
+    margin-top: 10px; /* Space above the button */
+    padding: 10px; /* Padding inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #d1c4e9; /* Light purple background */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button Hover Effect */
+.submit-post-button:hover {
+    background-color: #6a4ca1; /* Darker purple on hover */
+}
+
+/* Posts List */
+.posts-list {
+    margin-top: 20px; /* Space above the posts list */
+}
+
+/* Individual Post */
+.post {
+    padding: 10px; /* Padding inside each post */
+    background-color: #fff; /* White background for posts */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below each post */
+}

@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5e4b8a; /* Darker purple for headings */
+}
+
+h2 {
+    color: #7a3b8a; /* Slightly lighter purple */
+}
+
+/* Outer container for dark purple background */
+.outer-container {
+    display: flex; /* Flex display to align sidebar and container */
+    background-color: #5e4b8a; /* Dark purple background */
+    padding: 20px; /* Padding around the light purple container */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 200px; /* Fixed width for sidebar */
+    background-color: #4a3c6c; /* Slightly darker purple for sidebar */
+    padding: 20px; /* Padding inside the sidebar */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    color: white; /* White color for sidebar headings */
+    font-size: 1.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.sidebar ul li a:hover {
+    color: #d1c4e9; /* Light color on hover */
+}
+
+/* Main Container Styles */
+.container {
+    flex-grow: 1; /* Allow container to take available space */
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e8d7f1; /* Light purple background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #5e4b8a;
+}
+
+input[type="number"], input[type="text"] {
+    width: calc(100% - 22px); /* Ensure full width minus padding */
+    padding: 10px;
+    border: 1px solid #d1c4e9; /* Border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus, input[type="text"]:focus {
+    border-color: #7a3b8a; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #7a3b8a; /* Purple button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #5e4b8a; /* Darker purple on hover */
+    transform: translateY(-2px); /* Slightly lift button on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fce4f1; /* Lighter pink for expense items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex; /* Use flexbox for better alignment */
+    justify-content: space-between; /* Space out content */
+    align-items: center; /* Center items vertically */
+}
+
+.button-container {
+    display: flex; /* Flexbox for buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Space below the Add Expense button */
+.add-expense-button {
+    margin-top: 20px; /* Add space above for better separation */
+}
